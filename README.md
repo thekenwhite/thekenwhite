@@ -7,3 +7,5 @@
 	- [The Better Life Guide](<./1_the-better-life-guide/1_the-better-life-guide.md>)
 - `2_the-human-relationship`
 	- [The Human Relationship](<./2_the-human-relationship/2_the-human-relationship.md>)
+- `3_the-computer-programming`
+	- [The Computer Programming](<./3_the-computer-programming/3_the-computer-programming.md>)
