@@ -1,0 +1,6 @@
+{
+    "explorer.sortOrderLexicographicOptions": "unicode",
+    "workbench.tree.indent": 16,
+    "workbench.list.openMode": "doubleClick",
+    "workbench.tree.expandMode": "doubleClick"
+}

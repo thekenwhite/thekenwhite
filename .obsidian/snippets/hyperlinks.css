@@ -1,0 +1,12 @@
+
+.theme-light, .theme-dark {
+  --link-decoration: none;
+  --link-decoration-hover: none;
+  --link-external-decoration: none;
+  --link-external-decoration-hover: none;
+}
+
+.external-link {
+  background-image: none;
+  padding-right: 0px;
+}
