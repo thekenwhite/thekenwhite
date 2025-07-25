@@ -8,4 +8,4 @@
 - `2_the-human-relationship`
 	- [The Human Relationship](<./2_the-human-relationship/2_the-human-relationship.md>)
 - `3_the-computer-programming`
-	- [The Computer Programming](<./3_the-computer-programming/3_the-computer-programming.md>)
+	- [The Computer Programming](<./3_the-computer-programming/3_the-computer-programming.md>) (Planned)
