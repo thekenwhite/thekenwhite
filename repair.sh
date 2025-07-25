@@ -6,3 +6,5 @@ rm -rf .git
 mv .repair/.git .git
 
 rm -rf .repair
+
+sh config.sh
