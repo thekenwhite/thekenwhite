@@ -30,5 +30,5 @@
     "editor:toggle-checklist-status",
     "editor:configure-toolbar"
   ],
-  "tabSize": 2
+  "tabSize": 4
 }
