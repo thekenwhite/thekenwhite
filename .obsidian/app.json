@@ -8,5 +8,6 @@
   "foldHeading": false,
   "spellcheck": false,
   "newFileLocation": "root",
-  "attachmentFolderPath": ".obsidian/attachments"
+  "attachmentFolderPath": ".obsidian/attachments",
+  "showUnsupportedFiles": false
 }
