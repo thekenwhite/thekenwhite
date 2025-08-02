@@ -12,8 +12,6 @@ extern "C" {
 
 void cc_from_c();
 void mod_from_c();
-void rs_from_c();
-void rs_from_cc();
 
 #ifdef __cplusplus
 }

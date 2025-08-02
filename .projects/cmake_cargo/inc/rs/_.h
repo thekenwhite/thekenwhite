@@ -1,9 +1,12 @@
 #pragma once
 
-#ifdef __cpluplus
+#ifdef __cplusplus
 extern "C" {
 #endif
 
-#ifdef __cpluplus
+void rs_from_c();
+void rs_from_cc();
+
+#ifdef __cplusplus
 }
 #endif

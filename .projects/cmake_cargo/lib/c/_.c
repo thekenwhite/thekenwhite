@@ -11,7 +11,7 @@ void c_run() {
     c_hello();
     cc_from_c();
     mod_from_c();
-    //rs_from_c();
+    rs_from_c();
 }
 
 void c_hello() {
