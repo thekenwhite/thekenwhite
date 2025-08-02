@@ -3,4 +3,4 @@
 
 export ROOT=$(pwd)
 
-export PATH=$PATH:$ROOT:.scripts/sh
+export PATH=$ROOT:$PATH:.scripts/sh
