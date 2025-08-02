@@ -2,6 +2,6 @@
 #include "_.h"
 
 int main() {
-    c_run();
+    cc_run();
     return 0;
 }
