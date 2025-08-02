@@ -1,4 +1,5 @@
 
+rm -rf .cmake/output
 rm -rf .cmake/target
 
 cmake -S . -B .cmake/target &&

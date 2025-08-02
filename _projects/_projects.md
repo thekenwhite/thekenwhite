@@ -6,3 +6,4 @@
 - `cmake-c`
 - `cmake-cc`
 - `cmake_cargo`
+- `docker-rs`
