@@ -1,0 +1,10 @@
+{
+  "showInlineTitle": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "foldIndent": false,
+  "foldHeading": false,
+  "spellcheck": false
+}
