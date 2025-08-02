@@ -35,7 +35,7 @@ target_sources(cc_lib
 
 # LIBRARY
 
-add_library(lib
+add_library(staticlib
     $<TARGET_OBJECTS:c_lib>
     $<TARGET_OBJECTS:cc_lib>
 )
@@ -44,7 +44,7 @@ add_library(lib
 
 corrosion_import_crate(MANIFEST_PATH Cargo.toml)
 
-target_link_libraries(lib rs_lib)
+target_link_libraries(staticlib lib)
 
 # C BINARY
 
@@ -52,7 +52,7 @@ foreach(bin_file ${c_bin_files})
     get_filename_component(bin_name ${bin_file} NAME_WLE)
     add_executable(${bin_name} ${bin_file})
     target_include_directories(${bin_name} PRIVATE inc/c)
-    target_link_libraries(${bin_name} lib)
+    target_link_libraries(${bin_name} staticlib)
 endforeach()
 
 # C++ BINARY
@@ -61,5 +61,5 @@ foreach(bin_file ${cc_bin_files})
     get_filename_component(bin_name ${bin_file} NAME_WLE)
     add_executable(${bin_name} ${bin_file})
     target_include_directories(${bin_name} PRIVATE inc/cc)
-    target_link_libraries(${bin_name} lib)
+    target_link_libraries(${bin_name} staticlib)
 endforeach()

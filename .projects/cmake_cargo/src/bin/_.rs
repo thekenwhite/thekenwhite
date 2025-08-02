@@ -1,4 +1,4 @@
 
 fn main() {
-    rs_lib::run();
+    lib::run();
 }
