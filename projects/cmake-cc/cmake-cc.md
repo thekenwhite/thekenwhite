@@ -1,19 +1,19 @@
 # cmake-cc
 
 ```
-- .cmake/
-	- config.cmake
-- bin/
-	- _.cc
-- inc/
-	- _.h
-- lib/
-	- _.cc
-- mod/
-	- _.cc
-- CMakeLists.txt
-- cmake.sh
-- rebuild.sh
+.cmake/
+	config.cmake
+bin/
+	_.cc
+inc/
+	_.h
+lib/
+	_.cc
+mod/
+	_.cc
+CMakeLists.txt
+cmake.sh
+rebuild.sh
 ```
 
 - `.cmake/config.cmake`

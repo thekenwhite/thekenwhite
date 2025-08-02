@@ -1,12 +1,12 @@
 # cargo
 
 ```
-- src/
-	- bin/
-		- _.rs
-	- lib/
-		- _.rs
-- Cargo.toml
+src/
+	bin/
+		_.rs
+	lib/
+		_.rs
+Cargo.toml
 ```
 
 - `src/bin/_.rs`

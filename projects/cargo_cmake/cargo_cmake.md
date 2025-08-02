@@ -1,4 +1,4 @@
-# cmake
+# cargo_cmake
 
 ```
 .cmake/
@@ -22,7 +22,14 @@ lib/
 		_.cc
 mod/
 	_.cc
+src/
+	bin/
+		_.rs
+	lib/
+		_.rs
 CMakeLists.txt
+Cargo.toml
+build.rs
 cmake.sh
 rebuild.sh
 ```
@@ -186,6 +193,34 @@ export void mod_from_c() {
 }
 ```
 
+- `src/bin/_.rs`
+
+```rust
+fn main() {
+    lib::run();
+}
+```
+
+- `src/lib/_.rs`
+
+```rust
+unsafe extern "C" {
+    unsafe fn c_from_rs();
+    unsafe fn cc_from_rs();
+    unsafe fn mod_from_rs();
+}
+
+pub fn run() {
+    println!("Hello Rust");
+
+    unsafe {
+        c_from_rs();
+        cc_from_rs();
+        mod_from_rs();
+    }
+}
+```
+
 - `CMakeLists.txt`
 
 ```cmake
@@ -248,6 +283,50 @@ foreach(bin_file ${cc_bin_files})
     target_include_directories(${bin_name} PRIVATE inc/cc)
     target_link_libraries(${bin_name} lib)
 endforeach()
+  
+install(TARGETS lib DESTINATION .)
+```
+
+- `Cargo.toml`
+
+```toml
+[package]
+name = "cargo_cmake"
+version = "0.1.0"
+edition = "2024"
+default-run = "_"
+
+[[bin]]
+name = "_"
+path = "src/bin/_.rs"
+
+[lib]
+name = "lib"
+path = "src/lib/_.rs"
+
+[build-dependencies]
+cmake = "*"
+```
+
+- `build.rs`
+
+```rust
+#![allow(unused_macros)]
+
+use cmake::Config;
+
+macro_rules! warning {
+    ($($tokens: tt)*) => {
+        println!("cargo::warning={}", format!($($tokens)*))
+    }
+}
+
+fn main() {
+    let dst = Config::new(".").build();
+
+    println!("cargo:rustc-link-search=native={}", dst.display());
+    println!("cargo:rustc-link-lib=static=lib");
+}
 ```
 
 - `cmake.sh`

@@ -15,6 +15,7 @@ include_directories(inc)
 # C LIBRARY
 
 file(GLOB_RECURSE c_lib_files lib/c/*)
+
 add_library(c_lib ${c_lib_files})
 target_include_directories(c_lib PRIVATE inc/c)
 
@@ -27,7 +28,7 @@ target_include_directories(cc_lib PRIVATE inc/cc)
 # C++ MODULE
 
 file(GLOB_RECURSE cc_mod_files mod/*)
-target_sources(cc_lib
+target_sources(cc_lib   
     PUBLIC FILE_SET CXX_MODULES
     FILES ${cc_mod_files}
 )
@@ -56,3 +57,5 @@ foreach(bin_file ${cc_bin_files})
     target_include_directories(${bin_name} PRIVATE inc/cc)
     target_link_libraries(${bin_name} lib)
 endforeach()
+
+install(TARGETS lib DESTINATION .)
