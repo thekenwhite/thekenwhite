@@ -1,4 +1,8 @@
 
+.build
+.output
+.target
+
 build
 output
 target
