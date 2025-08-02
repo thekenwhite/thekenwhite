@@ -3,5 +3,6 @@
 resolver = "3"
 members = [
     ".projects/cargo",
-    ".projects/cargo_cmake"
+    ".projects/cargo_cmake",
+    ".projects/cmake_cargo",
 ]
