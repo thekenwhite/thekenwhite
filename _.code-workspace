@@ -4,6 +4,9 @@
 			"path": ".",
 			"name": "_"
 		},
+		{
+			"path": "../system"
+		},
 	],
 	"settings": {
 		"explorer.sortOrder": "filesFirst",
