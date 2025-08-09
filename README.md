@@ -4,7 +4,7 @@
 
 ## Index
 
-- [ ] (None)
+- [ ] [Torrix](<./torrix/torrix.md>)
 
 ## About
 
