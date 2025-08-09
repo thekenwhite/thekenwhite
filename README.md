@@ -2,14 +2,6 @@
 
 ## Index
 
-- [ ] [Client](<./client/client.md>)
-- [ ] [Server](<./server/server.md>)
-- [ ] [Static](<./static/static.md>)
-- [ ] [System](<./system/system.md>)
-- [ ] [Target](<./target/target.md>)
-- [ ] [Torrix](<./torrix/torrix.md>)
-- [ ] [Torrix System](<./torrix-system/torrix-system.md>)
-
 ## About
 
 - X Account
