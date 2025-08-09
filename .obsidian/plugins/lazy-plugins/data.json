@@ -1,0 +1,41 @@
+{
+  "dualConfigs": false,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 2,
+    "longDelaySeconds": 5,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": true,
+    "enableDependencies": false,
+    "plugins": {
+      "obsidian-alias-from-heading": {
+        "startupType": "instant"
+      },
+      "better-markdown-links": {
+        "startupType": "instant"
+      },
+      "css-editor": {
+        "startupType": "instant"
+      },
+      "custom-sort": {
+        "startupType": "instant"
+      },
+      "custom-font-loader": {
+        "startupType": "instant"
+      },
+      "folder-notes": {
+        "startupType": "short"
+      },
+      "obsidian-hider": {
+        "startupType": "instant"
+      },
+      "obsidian-paste-image-rename": {
+        "startupType": "instant"
+      },
+      "show-hidden-files": {
+        "startupType": "instant"
+      }
+    }
+  }
+}
