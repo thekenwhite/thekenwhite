@@ -25,7 +25,7 @@
 
 ## Profile
 
-- Nation
+- Native Nation
 	- South Korean
 - Native Language
 	- Korean Language
