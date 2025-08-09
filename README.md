@@ -1,7 +1,5 @@
 # Home
 
-- [ ] (None)
-
 ## Index
 
 - [ ] [Client](<./client/client.md>)
