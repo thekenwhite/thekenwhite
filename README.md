@@ -4,7 +4,8 @@
 
 ## Index
 
-- [ ] [Torrix](<./torrix/torrix.md>)
+- [ ] [Target](<./target/target.md>)
+- [ ] [Torrix System](<./torrix-system/torrix-system.md>)
 
 ## About
 
