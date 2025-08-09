@@ -15,10 +15,6 @@
 
 ## Profile
 
-- Native Nation
-	- South Korean
-- Native Language
-	- Korean Language
 - Political Position
 	- Bitcoin Libertarian
 - Philosophical Position
