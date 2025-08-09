@@ -8,12 +8,12 @@
 
 ## About
 
-- Author Name
-	- Ken White
 - X Account
 	- https://x.com/the_ken_white
 - GitHub Profile
 	- https://github.com/thekenwhite
+- Static Website
+	- https://thekenwhite.vercel.app
 - Lightning Address
 	- thekenwhite@walletofsatoshi.com
 
