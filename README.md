@@ -19,8 +19,12 @@
 
 ## Profile
 
+- Nation
+	- Korean
+- Native Language
+	- Korean Language
 - Political Position
-	- Libertarian
+	- Bitcoin Libertarian
 - Philosophical Position
 	- Existential Libertarian
 - Technological Position

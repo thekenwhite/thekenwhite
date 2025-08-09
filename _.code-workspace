@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "_"
+		},
+		{
+			"path": "../target"
+		},
+		{
+			"path": "../static"
+		},
+		{
+			"path": "../server"
+		},
+		{
+			"path": "../system"
+		},
+		{
+			"path": "../client"
+		},
+	],
+	"settings": {
+		"explorer.sortOrder": "filesFirst",
+		"explorer.sortOrderLexicographicOptions": "unicode",
+		"workbench.list.openMode": "doubleClick",
+		"workbench.tree.expandMode": "doubleClick",
+		"workbench.tree.indent": 16,
+		"explorer.compactFolders": false,
+		"extensions.ignoreRecommendations": true
+	}
+}
