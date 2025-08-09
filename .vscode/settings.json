@@ -3,5 +3,7 @@
     "explorer.sortOrderLexicographicOptions": "unicode",
     "workbench.list.openMode": "doubleClick",
     "workbench.tree.expandMode": "doubleClick",
-    "workbench.tree.indent": 16
+    "workbench.tree.indent": 16,
+    "explorer.compactFolders": false,
+    "extensions.ignoreRecommendations": true
 }
