@@ -1,0 +1,7 @@
+{
+    "explorer.sortOrder": "filesFirst",
+    "explorer.sortOrderLexicographicOptions": "unicode",
+    "workbench.list.openMode": "doubleClick",
+    "workbench.tree.expandMode": "doubleClick",
+    "workbench.tree.indent": 16
+}
