@@ -4,21 +4,6 @@
 			"path": ".",
 			"name": "_"
 		},
-		{
-			"path": "../target"
-		},
-		{
-			"path": "../static"
-		},
-		{
-			"path": "../server"
-		},
-		{
-			"path": "../system"
-		},
-		{
-			"path": "../client"
-		},
 	],
 	"settings": {
 		"explorer.sortOrder": "filesFirst",
